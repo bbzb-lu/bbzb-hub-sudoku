@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBZB Pomodoro</title>
+  <link rel="icon" type="image/png" href="icons/tomate.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="titlebar">
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <span class="titlebar-text">POMODORO TIMER</span>
+      <img src="icons/tomate.png" class="titlebar-icon" alt="">
+    </div>
+
+    <div class="card-body">
+
+      <div class="phase-label" id="phase-label">WORK</div>
+      <div class="phase-progress" id="phase-progress"></div>
+
+      <div id="idle-view">
+        <img src="icons/tomate.png" class="hero-icon" id="hero-icon" alt="">
+        <button class="start-btn" id="start-btn">START</button>
+      </div>
+
+      <div id="running-view">
+        <img src="icons/tomate.png" class="hero-icon" id="running-icon" alt="">
+        <div class="timer-row">
+          <button class="btn-ctrl" id="pause-btn" title="Pause / Resume">II</button>
+          <div class="timer-display" id="timer-display">25:00</div>
+          <button class="btn-ctrl" id="skip-btn" title="Skip phase">&gt;&gt;</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
