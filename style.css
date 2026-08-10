@@ -125,17 +125,6 @@ html, body {
   flex-shrink: 0;
 }
 
-.titlebar-close {
-  font-size: clamp(0.45rem, 2vh, 0.7rem);
-  font-weight: 700;
-  color: var(--dark);
-  background: rgba(255, 255, 255, 0.85);
-  border: 2px solid var(--dark);
-  padding: 2px 5px;
-  flex-shrink: 0;
-  line-height: 1;
-}
-
 /* ── Card variants ── */
 .card--pink {
   border: 4px solid var(--blue);
