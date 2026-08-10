@@ -44,7 +44,7 @@
   --pad-x:  clamp(5px, 1.6vw, 10px);     /* card-body padding          */
   --pad-y:  clamp(4px, 1.2vh, 8px);
   --gap:    clamp(4px, 1.4vw, 9px);
-  --side-w: clamp(96px, 29vw, 148px);    /* controls column            */
+  --side-w: clamp(106px, 31vw, 160px);    /* controls column            */
 
   /* The board is square: whichever of height/width runs out first wins. */
   --board: min(
@@ -222,7 +222,7 @@ html, body {
 
 .back-btn {
   font-family: var(--font);
-  font-size: clamp(0.42rem, 1.9vh, 0.65rem);
+  font-size: clamp(0.56rem, 3.6vh, 0.95rem);
   line-height: 1;
   font-weight: 700;
   color: var(--dark);
@@ -656,7 +656,7 @@ html, body {
   justify-content: space-between;
   gap: 4px;
   width: 100%;
-  font-size: clamp(0.42rem, 1.9vh, 0.62rem);
+  font-size: clamp(0.56rem, 3.6vh, 0.95rem);
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--dark);
@@ -665,7 +665,7 @@ html, body {
 .status-diff { color: var(--pink); }
 
 .status-code {
-  font-size: clamp(0.42rem, 1.9vh, 0.62rem);
+  font-size: clamp(0.56rem, 3.6vh, 0.95rem);
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--blue);
@@ -688,8 +688,8 @@ html, body {
 }
 
 .status-icon {
-  width: clamp(9px, 1.9vh, 14px);
-  height: clamp(9px, 1.9vh, 14px);
+  width: clamp(11px, 3.4vh, 19px);
+  height: clamp(11px, 3.4vh, 19px);
   object-fit: contain;
 }
 
@@ -816,7 +816,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: clamp(3px, 1vw, 6px);
-  font-size: clamp(0.4rem, 1.8vh, 0.6rem);
+  font-size: clamp(0.54rem, 3.4vh, 0.9rem);
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--dark);
@@ -826,8 +826,8 @@ html, body {
 }
 
 .checkbox {
-  width: clamp(10px, 2.2vh, 16px);
-  height: clamp(10px, 2.2vh, 16px);
+  width: clamp(12px, 2.7vh, 18px);
+  height: clamp(12px, 2.7vh, 18px);
   background: var(--cream);
   border: 2px solid var(--dark);
   box-shadow: 2px 2px 0 var(--blue);
@@ -839,8 +839,8 @@ html, body {
 }
 
 .toggle-icon {
-  width: clamp(10px, 2.2vh, 16px);
-  height: clamp(10px, 2.2vh, 16px);
+  width: clamp(12px, 2.7vh, 18px);
+  height: clamp(12px, 2.7vh, 18px);
   object-fit: contain;
   flex-shrink: 0;
 }
