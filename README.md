@@ -1,5 +1,7 @@
 # BBZB Sudoku
 
+> **Umgezogen (11.11.2026):** Dieses Embed liegt jetzt im Repo [bbzb-lu/bbzb-tools](https://github.com/bbzb-lu/bbzb-tools/tree/main/embeds/sudoku/) unter `embeds/sudoku/` und läuft unter https://bbzb-tools.pages.dev/sharepoint/sudoku/. Dieses Repo wird archiviert und nicht mehr gepflegt.
+
 Sudoku im Browser — allein spielen oder mit einem geteilten Code im Rennen gegen die Klasse.
 
 ## In SharePoint einbetten
